@@ -8,25 +8,23 @@
 
 .main
 {
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-2);
-    margin: auto;
     align-items: center;
-    justify-content: center;
+    margin: auto;
 }
 
 .infoContainer
 {
-
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    width: 90%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    padding-bottom: 10px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 1%;
 }
 
 .imageContainer
@@ -34,11 +32,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: var(--background-2);
-    width: 100%;
     justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .imageContainer figure
@@ -48,7 +42,7 @@
     background-color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 5px;
+    padding: 1%;
 }
 
 body
@@ -75,19 +69,10 @@ h1
     background-color: var(--background-1);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
-    padding: 10px;
 }
 
 h2
 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-img
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; /* Optional: defines the size of the image */
 }
