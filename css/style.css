@@ -1,16 +1,18 @@
 
 :root
 {
-    --background-1: #DDACE6;
-    --background-2: #add8e6;
+    --titleBackground: #DDACE6;
+    --background: #add8e6;
+    --textBackground: #f5f5f5;
     --textColour-1: #596366;
 }
 
 .main
 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: var(--background-2);
+    background-color: var(--background);
     align-items: center;
     margin: auto;
 }
@@ -19,28 +21,29 @@
 {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--textBackground);
     text-align: center;
     justify-content: center;
     width: 90%;
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
+/* The grid that will contain a group of pictures */
 .imageContainer
 {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: var(--background-2);
+    background-color: var(--background);
     justify-content: center;
 }
 
+/* The actual pictures themselfs */
 .imageContainer figure
 {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--textBackground);
     text-align: center;
     padding: 1%;
 }
@@ -53,26 +56,17 @@ body
 
 ol
 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
-}
-
-p
-{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    list-style: none;
 }
 
 h1
 {
     width: 80%;
-    background-color: var(--background-1);
+    background-color: var(--titleBackground);
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h2
-{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 225%;
+    padding: 1%;
 }
