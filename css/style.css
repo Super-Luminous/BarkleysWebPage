@@ -29,6 +29,7 @@ nav
     width: 1000px;
     margin: auto;
     margin-bottom: 50px;
+    max-width: 100%;
 }
 
 nav img
@@ -98,13 +99,14 @@ body
 {
     background-color: darkcyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 header
 {
     position: relative;
     top: 50px;
-
+    max-width: 100%;
 }
 
 main
@@ -131,6 +133,7 @@ footer
     border: 3px solid black;
     padding: 15px 0px 15px 0px;
     width: 720px;
+    max-width: 100%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -147,11 +150,13 @@ footer
     list-style: none;
 }
 
+
 /* Image Gallery Style, Uses a Grid lay out, which each Figure container in the grid using flex layout */
 .gallery
 {
     display: grid;
     width: 1000px;
+    max-width: 100%;
     grid-template-columns: auto auto auto;
     place-items: center;
     background-color: lightcyan;
