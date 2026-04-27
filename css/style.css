@@ -36,7 +36,7 @@ nav img
 {
     display: inline;
     vertical-align: middle;
-    height: 300px;
+    width: 30%;
     margin: 10px;
 }
 
@@ -51,8 +51,7 @@ nav a
     vertical-align: middle;
     border: 5px dotted grey ;
     border-radius: 10%;
-    width: 600px;
-    height: 280px;
+    width: 60%;
     margin: 10px;
 }
 
