@@ -51,7 +51,7 @@ nav a
     vertical-align: middle;
     border: 5px dotted grey ;
     border-radius: 10%;
-    max-width: 65%;
+    width: 65%;
     margin: 10px auto; 
 }
 
@@ -98,7 +98,7 @@ body
 {
     background-color: darkcyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    max-width: 100%;
 }
 
 header
