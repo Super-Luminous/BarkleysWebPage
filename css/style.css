@@ -86,11 +86,6 @@ nav a
     background-color: lightgray;
 }
 
-.button:hover
-{
-    border-color: yellow;
-    border-width: 5px;
-}
 
 #navbar-hightlight
 {
