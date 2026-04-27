@@ -3,67 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Barkley</title>
+    <title>Barkley's Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 
-<header class="banner">
-    head   
-</header>
-
-
-
 <body>
+   
+    <a href="#main-content" class="offpage">Skip to main content</a>
 
-    <main class= "main">
+    <header id="top-of-page">  
+        <Nav>   
+            <img src="images/barkley_framed.jpg" alt= "Framed Photo of Barkley's face">
+            <div class="navbar">
+                <h1> All About Barkley</h1>    
+                <ul>
+                    <li class="button" id="navbar-hightlight" > <a href="index.html">Home</a> </li>
+                    <li class="button"> <a href="photo_gallery.html">Photo Gallery</a></li>
+                    <li class="button"> <a href="adventure.html"> Adventures</a></li>
+                </ul>
+            </div>
+        </Nav>
+    </header>
 
-
-        <h1>Welcome To Barkley's Page!</h1>
-
-         <div class="infoContainer"> 
-            <h2> All About Barkley</h2> 
-            <p> Barkley is a young toy poodle. He is very polite, well behaved, and obsessed with treats.</p>
-            <a  href="https://en.wikipedia.org/wiki/Poodle">Some more info about poodles</a>
-         </div>
-         
-        <div class="infoContainer">
-            <h3> His favorite foods are: </h3>
-            <ol>
-                <li>Ham</li>
-                <li>Cucumber</li>
-                <li>Cheese</li>
-                <li>Apples</li>
-                <li>Peanut butter treats</li>
-            </ol>
+    <main id="main-content" tabindex="-1">
+        <!-- about paragraph-->
+        <div class="infobox">
+        <h2>Welcome to Barkley's Page</h2>
+        <P>
+        Barkley is a young toy poodle, born in Arpil 2024. He is very polite, well behaved, and obsessed with treats.
+        </P>
         </div>
-           
-        <h1>Pictures of Barkley</h1>
-
-        <div class="imageContainer">              
-            <figure>
-                <img src="images/barkley_in_the_sun.jpeg" alt="Barkley In The Sun" >
-                <figcaption>Barkley is enjoying the sun!</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/barkley_snack.jpeg" alt="barkley_snack" >
-                <figcaption>Barkley eating a pup-cup.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/barkley_chair.jpeg" alt="barkley_chair" >
-                <figcaption>Barkley posing on a cafe chair.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/barkley_car_bed.jpeg" alt="barkley_car_bed" >
-                <figcaption>Barkley in the car. </figcaption>
-            </figure>
+        <!-- favorit foods-->
+        <div class="infobox">
+        <h2> His Favorite Foods Are</h2>
+        <ol>
+            <li>Ham </li>
+            <li>Chicken </li>
+            <li>Cucumber </li>
+            <li>Cheese </li>
+            <li>Apples </li>
+            <li>Peanut butter treats </li>
+        </ol>
         </div>
-       
-
     </main>
+
+    <!-- must contain back to top link and info-->
+    <footer>
+        <div class="infobox">     
+            <p>This site was made for Intro To CSS3 final project.</p>
+            <a href="#top-of-page">Back to top</a>
+        </div>  
+    </footer>
 </body>
 </html>
