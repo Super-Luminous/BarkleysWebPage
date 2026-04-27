@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barkley's Adventures</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 
@@ -38,50 +39,98 @@
 
         <div class="gallery">
 
-            <figure>
-                <img src="images/adventure/barkley_bike_trailer.jpg" alt="Barkley laying in his bike trailer.">
-                <figcaption>Barkley in his bike trailer </figcaption>
-            </figure>
+
 
             <figure>
-                <img src="images/adventure/barkley_car_bed.jpeg" alt="Barkley laying in his car bed.">
+                <a 
+                    href= "images/adventure/barkley_bike_trailer.jpg" 
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_bike_trailer.jpg">
+                </a>
+                <figcaption>Barkley in his bike trailer.</figcaption>
+            </figure>
+           
+
+            <figure>
+                <a 
+                    href="images/adventure/barkley_car_bed.jpeg" 
+                    data-lightbox="adventure">
+                    <img src="images/adventure/barkley_car_bed.jpeg" alt="Barkley laying in his car bed.">
+                </a> 
                 <figcaption>Barkley in his car bed, for those longer trips </figcaption>
             </figure>
 
-            <figure>
-                <img src="images/adventure/barkley_chair.jpeg" alt="Barkley sitting on a cafe chair.">
-                <figcaption>Taking a seat in the cafe</figcaption>
-            </figure>
 
             <figure>
-                <img src="images/adventure/barkley_in_the_tree.jpg" alt="Barkley sitting in a tree on a large branch">
+                <a 
+                    href= "images/adventure/barkley_chair.jpeg" 
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_chair.jpeg" alt="Barkley sitting on a cafe chair.">
+                </a>
+                <figcaption>Taking a seat in the cafe</figcaption>
+            </figure>
+            
+
+            <figure>
+                <a 
+                    href= "images/adventure/barkley_in_the_tree.jpg" 
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_in_the_tree.jpg" alt="Barkley sitting in a tree on a large branch">
+                </a>
                 <figcaption>How did he get up there?</figcaption>
             </figure>
 
+
             <figure>
-                <img src="images/adventure/barkley_snack.jpeg" alt="Barkley on a chair eating a pup-cup">
+                <a 
+                    href= "images/adventure/barkley_snack.jpeg"
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_snack.jpeg" alt="Barkley on a chair eating a pup-cup">
+                </a>
                 <figcaption>Yummy treat after a long walk.</figcaption>
             </figure>
 
+            
             <figure>
-                <img src="images/adventure/barkley_snow_day.jpg" alt="Barkley standing in the snow with boots on">
+                <a 
+                    href= "images/adventure/barkley_snow_day.jpg"
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_snow_day.jpg" alt="Barkley standing in the snow with boots on">
+                </a>
                 <figcaption>Snow day!</figcaption>
             </figure>
 
-            <figure>
-                <img src="images/adventure/barkley_snow_day_2.jpg" alt="Barkley walking in the snow with his boots and jacket on">
-                <figcaption>Barkley is always nice and warm with his jacket and boots on</figcaption>
-            </figure>
 
             <figure>
-                <img src="images/adventure/barkley_statue.jpg" alt="Barkley sitting in front of a statue of a family">
+                <a 
+                    href= "images/adventure/barkley_snow_day_2.jpg"
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_snow_day_2.jpg" alt="Barkley walking in the snow with his boots and jacket on">
+                </a>
+                 <figcaption>Barkley is always nice and warm with his jacket and boots on</figcaption>
+            </figure>
+
+
+            <figure>
+                 <a 
+                    href= "images/adventure/barkley_statue.jpg"
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_statue.jpg" alt="Barkley sitting in front of a statue of a family">
+                </a>
                 <figcaption>posing with a statue in a local park that is great for walks</figcaption>
             </figure>
 
+
             <figure>
-                <img src="images/adventure/barkley_vest_nm.jpg" alt="Barkley wearking a poncho designed for dogs">
+                <a 
+                    href= images/adventure/barkley_vest_nm.jpg
+                    data-lightbox= "adventure">
+                    <img src="images/adventure/barkley_vest_nm.jpg" alt="Barkley wearking a poncho designed for dogs">
+                </a>
                 <figcaption>Barkley wearing his new poncho in New Mexico. This was barkleys furthest trip so far</figcaption>
             </figure>
+
+       
 
         </div>
     </main>
@@ -89,11 +138,11 @@
     <!-- must contain back to top link and info-->
     <footer>
         <div class="infobox">     
-            <p>This site was made for Intro To CSS3 final project.</p>
             <a href="#top-of-page">Back to top</a>
         </div>  
     </footer>
 
+<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
