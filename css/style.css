@@ -27,16 +27,16 @@ nav
     background-color: lightcyan;
     border: 3px solid black;
     width: 1000px;
+    max-width: 90%;
+    align-content: center;
     margin: auto;
-    margin-bottom: 50px;
-    max-width: 100%;
 }
 
 nav img
 {
     display: inline;
     vertical-align: middle;
-    width: 30%;
+    max-width: 30%;
     margin: 10px;
 }
 
@@ -51,8 +51,8 @@ nav a
     vertical-align: middle;
     border: 5px dotted grey ;
     border-radius: 10%;
-    width: 60%;
-    margin: 10px;
+    max-width: 65%;
+    margin: 10px auto; 
 }
 
 .navbar h1
@@ -60,9 +60,8 @@ nav a
     display: block;
     text-align: center;
     font-size: 360%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    padding: 10px;
+    margin: auto;  
 }
 
 /* Use flex display so the box automaticaly resized based on the length of the link text... - done */
@@ -80,6 +79,7 @@ nav a
     text-align: center;
     padding: 5px;
     width: 120px;
+    max-width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 3px solid black;
@@ -131,8 +131,8 @@ footer
     align-self: center;
     border: 3px solid black;
     padding: 15px 0px 15px 0px;
-    width: 720px;
-    max-width: 100%;
+    width: 900px;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -155,7 +155,7 @@ footer
 {
     display: grid;
     width: 1000px;
-    max-width: 100%;
+    max-width: 90%;
     grid-template-columns: auto auto auto;
     place-items: center;
     background-color: lightcyan;
